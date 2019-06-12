@@ -6,9 +6,19 @@
     <description>Recent content in Categories on gywin&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Tue, 12 Jun 2018 21:21:33 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>编程</title>
+      <link>http://localhost:1313/categories/%E7%BC%96%E7%A8%8B/</link>
+      <pubDate>Tue, 12 Jun 2018 21:21:33 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/%E7%BC%96%E7%A8%8B/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

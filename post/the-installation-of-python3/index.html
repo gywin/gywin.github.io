@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>404 page not found - gywin&#39;s blog</title>
+  <title>编译安装 Python3 以及 sqlite3 模块 - gywin&#39;s blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="gywin" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="gywin" /><meta name="description" content="编译安装的好处 有些系统应用依赖自带的 Python 环境，若编译安装到独立目录，可起到隔离作用； 采用 yum、apt 等包管理工具安装，不利于管理，且安装位置" /><meta name="keywords" content="python" />
 
 
 
@@ -26,7 +26,7 @@
 <meta name="generator" content="Hugo 0.55.6 with even 4.0.0" />
 
 
-<link rel="canonical" href="http://localhost:1313/404.html" />
+<link rel="canonical" href="http://localhost:1313/post/the-installation-of-python3/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -38,18 +38,27 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="404 Page not found" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/404.html" />
+<meta property="og:title" content="编译安装 Python3 以及 sqlite3 模块" />
+<meta property="og:description" content="编译安装的好处 有些系统应用依赖自带的 Python 环境，若编译安装到独立目录，可起到隔离作用； 采用 yum、apt 等包管理工具安装，不利于管理，且安装位置" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/the-installation-of-python3/" />
+<meta property="article:published_time" content="2018-06-12T21:21:33&#43;08:00"/>
+<meta property="article:modified_time" content="2018-06-12T21:21:33&#43;08:00"/>
+
+<meta itemprop="name" content="编译安装 Python3 以及 sqlite3 模块">
+<meta itemprop="description" content="编译安装的好处 有些系统应用依赖自带的 Python 环境，若编译安装到独立目录，可起到隔离作用； 采用 yum、apt 等包管理工具安装，不利于管理，且安装位置">
 
 
-<meta itemprop="name" content="404 Page not found">
-<meta itemprop="description" content="">
+<meta itemprop="datePublished" content="2018-06-12T21:21:33&#43;08:00" />
+<meta itemprop="dateModified" content="2018-06-12T21:21:33&#43;08:00" />
+<meta itemprop="wordCount" content="188">
 
+
+
+<meta itemprop="keywords" content="Python," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="404 Page not found"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="编译安装 Python3 以及 sqlite3 模块"/>
+<meta name="twitter:description" content="编译安装的好处 有些系统应用依赖自带的 Python 环境，若编译安装到独立目录，可起到隔离作用； 采用 yum、apt 等包管理工具安装，不利于管理，且安装位置"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -113,22 +122,109 @@
     <main id="main" class="main">
       <div class="content-wrapper">
         <div id="content" class="content">
-          <div class="not-found">
-  <h1 class="error-emoji"></h1>
-  <p class="error-text">/* 404 page not found. */</p>
-  <p class="error-link"><a href="/">↑ Back Home ↑</a></p>
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">编译安装 Python3 以及 sqlite3 模块</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-06-12 </span>
+        <div class="post-category">
+            <a href="/categories/%E7%BC%96%E7%A8%8B/"> 编程 </a>
+            </div>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#编译安装-python3">编译安装 Python3</a></li>
+<li><a href="#安装-sqlite3-模块">安装 sqlite3 模块</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
 </div>
-<script>
-  var errorEmojiContainer = document.getElementsByClassName('error-emoji')[0];
-  var emojiArray = [
-    '\\(o_o)/', '(o^^)o', '(˚Δ˚)b', '(^-^*)', '(≥o≤)', '(^_^)b', '(·_·)',
-    '(=\'X\'=)', '(>_<)', '(;-;)', '\\(^Д^)/',
-  ];
-  var errorEmoji = emojiArray[Math.floor(Math.random() * emojiArray.length)];
-  errorEmojiContainer.appendChild(document.createTextNode(errorEmoji));
-</script>
+    <div class="post-content">
+      
+
+<p>编译安装的好处</p>
+
+<ul>
+<li>有些系统应用依赖自带的 Python 环境，若编译安装到独立目录，可起到隔离作用；</li>
+<li>采用 yum、apt 等包管理工具安装，不利于管理，且安装位置无法自控；</li>
+<li>线上生产环境，采用编译安装，减少依赖性。</li>
+</ul>
+
+<h2 id="编译安装-python3">编译安装 Python3</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">cd</span> /usr/local/src
+wget https://www.python.org/ftp/python/3.6.8/Python-3.6.8.tgz
+tar xvf Python-3.6.8.tgz
+<span class="nb">cd</span> Python-3.6.8
+./configure --prefix<span class="o">=</span>/usr/local/python368
+make <span class="o">&amp;&amp;</span> make install</code></pre></td></tr></table>
+</div>
+</div>
+<p>采用 root 用户，安装好的 Python 环境位于 <code>/usr/local/python368</code> 目录下面。</p>
+
+<h2 id="安装-sqlite3-模块">安装 sqlite3 模块</h2>
+
+<p>使用 Sqlite3 数据库时，如果出现 <strong>sqlite3 module not found</strong> 异常, 需要先安装 sqlite-devel</p>
+
+<p><code>yum install sqlite-devel</code></p>
+
+<p>然后，重新编译安装 Python3</p>
+
+<p><code>./configure --prefix=/usr/local/python368 --enable-loadable-sqlite-extensions</code></p>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">gywin</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2018-06-12
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/python/">Python</a>
+          </div>
+      <nav class="post-nav">
+        
+        
+      </nav>
+    </footer>
+  </article>
         </div>
         
+  
+  
+
+  
 
       </div>
     </main>
