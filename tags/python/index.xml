@@ -6,7 +6,7 @@
     <description>Recent content in Python on gywin&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 Jun 2018 21:21:33 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2019 21:21:33 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>编译安装 Python3 以及 sqlite3 模块</title>
       <link>http://localhost:1313/post/the-installation-of-python3/</link>
-      <pubDate>Tue, 12 Jun 2018 21:21:33 +0800</pubDate>
+      <pubDate>Wed, 12 Jun 2019 21:21:33 +0800</pubDate>
       
       <guid>http://localhost:1313/post/the-installation-of-python3/</guid>
       <description>编译安装的好处 有些系统应用依赖自带的 Python 环境，若编译安装到独立目录，可起到隔离作用； 采用 yum、apt 等包管理工具安装，不利于管理，且安装位置</description>
