@@ -15,6 +15,12 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/categories/deployment/</loc>
+    <lastmod>2019-06-12T21:21:33+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/post/</loc>
     <lastmod>2019-06-12T21:21:33+08:00</lastmod>
     <priority>0</priority>
@@ -43,12 +49,6 @@
     <lastmod>2019-06-12T21:21:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/categories/%E9%83%A8%E7%BD%B2/</loc>
-    <lastmod>2019-06-12T21:21:33+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

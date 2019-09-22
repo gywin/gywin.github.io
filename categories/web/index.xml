@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on gywin&#39;s blog</title>
+    <link>http://localhost:1313/categories/web/</link>
+    <description>Recent content in Web on gywin&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 22 Sep 2019 13:21:33 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/categories/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Flask 的请求上下文以及请求隔离机制</title>
+      <link>http://localhost:1313/post/how-the-flask-context-work/</link>
+      <pubDate>Sun, 22 Sep 2019 13:21:33 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/how-the-flask-context-work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flask 应用和 WSGI Server 具体介绍</title>
+      <link>http://localhost:1313/post/the-introduction-to-wsgi-server/</link>
+      <pubDate>Sun, 22 Sep 2019 11:21:33 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/the-introduction-to-wsgi-server/</guid>
+      <description>WSGI 协议 WSGI 即 Web Server Gateway Interface，是一个接口约定，用于规范和统一 Server 端与 App 端的通信，从而解耦 Server 端与 App 端的具体技术实现。 接口形式如下： 1 2 3 def</description>
+    </item>
+    
+  </channel>
+</rss>
